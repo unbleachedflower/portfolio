@@ -1,0 +1,271 @@
+@media (max-width: 768px) { 
+    
+    //main
+    .hero {
+        margin-bottom: 15%;
+
+        h1{
+            font-size: 4rem;
+            margin-right: 8%;
+            margin-left: 10%;
+            
+        }
+
+        .logo{
+            width:18%;
+            margin:10% 3% 0 6%;
+        }
+
+        .social{
+            margin-top:60%;
+        }
+
+        .navigation{
+            margin-top:10%;
+            font-size: 100%;
+        }
+
+        .tagline {
+            margin-top: -400px;
+            font-size:150%;
+            margin-right: 8%;
+        }
+
+        .typewrite{
+            font-size: 130%;
+            margin-left: 20%;
+            margin-right: 8%;
+        }
+
+        .resume{
+            margin-right: 4%;
+            font-size: 110%;
+        }
+
+    }
+   
+    .section1 {
+        background-size: cover;
+        h2{
+            margin-top: 20%;
+            font-size: 2rem;
+        }
+
+        .profilePic{
+            margin-top: 40px;
+            width: 50%;
+            margin-left: 20%;
+        }
+
+        p{
+            font-size: 1.1rem;
+        }
+    }
+
+    .section2 {
+        h2{
+            margin-top: 20%;
+            font-size: 2rem;
+        }
+
+        .card{
+            margin:3% 10% 2% 10%;
+        }
+
+        .column-title{
+            font-size:1.5rem;
+        }
+
+        h4{
+            font-size: 30px;
+        }
+        
+        #api{
+            margin: 5% 10% 5% 10%;
+        }
+
+        #api>img {
+            width: 130px;
+        }
+    }
+    
+    .section3{
+        background-size: cover;
+    }
+
+    .section4{
+        .carousel{
+            margin: 5% 10% 30% 10%;
+        }     
+    }
+
+    .sticky {
+        position: relative;
+      }
+
+    //plant me
+    .subHeader{
+        margin-top: -500px;
+        margin-left: 28%;
+        margin-bottom: 20px;
+    }
+
+    .gif{
+        width: 250px;
+        margin-left: 15%;
+        margin-bottom: 30px;
+    }
+
+    .writeup{
+        margin-top: 40px;
+    }
+
+    .psection1{
+        background-size: cover;
+        .row{
+            margin-top: -10%;
+        }
+    }
+
+    .psection4{
+        p{
+            margin-left: 0;
+            margin-right: 10%;
+        }
+        
+    }
+
+    .psection5{
+        .row{
+            margin-left: 10%;
+        }
+        
+    }
+
+    .psection7{
+        p{
+            margin-left: 0;
+            margin-right: 10%;
+        }
+        
+    }
+
+    .psection8{
+        .row{
+            margin-left: 10%;
+        }
+        
+    }
+
+    .psection9{
+        margin-left: 10%;
+        margin-right: 5%;
+        .carousel{
+            width: 80%;
+            margin: 5% 10% 15% 5%;
+        }
+    }
+    
+    .psection10{
+        .container{
+            margin-left: -20px;
+        }
+
+        ul.horizontal-slide li[class*="col"] {
+            margin-right: 13vw;
+            img{
+                width:70vw;
+            }
+        }
+    }
+
+    //dyson
+    .dysonHero{
+        h3 {
+            font-size: 2.5rem;
+        }
+    }
+
+    .dsection8{
+        margin-left: 10%;
+   
+        ul.horizontal-slide li[class*="col"] {
+            margin-right: 13vw;
+            img{
+                width:75vw;
+            }
+        }
+    }
+
+    //bean 
+    .bsection4 , .bsection3 {
+        img{
+            margin:0;
+        }
+    }
+
+    .bsection10 {
+        margin-top: 25%;
+        video{
+            width: 280px;
+            height: 250px;
+            margin:0;
+        }
+    }
+
+    //contact
+    .contact{
+    margin-top: -520px;
+}
+   
+ }
+
+
+ @media (max-width: 375px) { 
+    .hero {
+        background-size: cover;
+    
+
+        h1{
+            font-size: 3.5rem;
+            
+        }
+
+        .social{
+            margin-top:80%;
+        }
+
+        .navigation{
+            margin-top:10%;
+            font-size: 100%;
+            // padding-bottom: 30%;
+        }
+
+        .tagline {
+            margin-top: -250px;
+            font-size:130%;
+        }
+
+        .typewrite{
+            font-size: 110%;
+            margin-left: 25%;
+        }
+
+        .resume{
+            margin-right: 4%;
+            font-size: 100%;
+            
+        }
+
+    }
+
+    //contact
+    .contact{
+        margin-right: 5%;
+        h1{
+            margin-top: 100px;
+            margin-left: 0px;
+        }
+    }
+
+ }

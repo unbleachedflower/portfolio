@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,500,500i,700,700i|Raleway:400,400i,500,500i,700,700i&display=swap');
-
-$font-primary: 'Lora',;
-$font-secondary: 'Raleway', ;
+$font-primary: 'Lora',
+;
+$font-secondary: 'Raleway',
+;
 $brown-color: brown;
 $darkBrown-color:#4C3230;
 $black:black;
@@ -10,34 +11,34 @@ $tq:#88FBED;
 $ppl:#D9CBF4;
 $shadow:#703DAB;
 $grey:#909090;
-
-body{
-    
+body {
     background-color: $black;
-    color:$white;
+    color: $white;
 }
 
-@mixin linx ($link, $visit, $hover, $active) {
+@mixin linx ($link,
+$visit,
+$hover,
+$active) {
     a {
-    font: $font-secondary;
-    color: $tq;
-
-    &:visited {
+        font: $font-secondary;
         color: $tq;
-    }
-
-    &:hover {
-        color: $ppl;   
-    }
-    &:active {
-        color: $ppl;
-    }
+        &:visited {
+            color: $tq;
+        }
+        &:hover {
+            color: $ppl;
+        }
+        &:active {
+            color: $ppl;
+        }
     }
 }
 
-@include linx($brown-color, $brown-color, purple, red);
-
-
+@include linx($brown-color,
+$brown-color,
+purple,
+red);
 //HOMEPAGE
 h1 {
     font: 5rem $font-secondary;
@@ -47,19 +48,15 @@ h1 {
     filter: drop-shadow(4px 3px 0px $ppl);
 }
 
-
-h2{
+h2 {
     font: 250% $font-secondary;
     color: $white;
     font-weight: bold;
     margin-bottom: 5%;
     margin-left: 15%;
-     
-   
 }
 
-
-h4{
+h4 {
     font: 150% $font-primary;
 }
 
@@ -67,77 +64,61 @@ p {
     font: 100% $font-secondary;
 }
 
-
-.hero{
+.hero {
     padding-bottom: 10%;
     // margin-bottom: 3%;
     background-image: url(../images/bg.png);
     background-repeat: no-repeat;
-
-
-      
-      .logo {
-          width: 6%;
-          margin: 3% 3% 0 6%;
-          
-      }
-
-
-      #navbarNav{
-         margin: 3% 3% 0 -10px;
-         font-size: 1.2rem;
-      }
-      
-      .social {
-          writing-mode: vertical-rl;
-          text-orientation: mixed;
-          transform-origin: 80 0;
-          transform: rotate(360deg);
-          margin-top: 25%;
-          margin-left: 8%;
-          font-size: 120%;
-          a {
+    .logo {
+        width: 6%;
+        margin: 3% 3% 0 6%;
+    }
+    #navbarNav {
+        margin: 3% 3% 0 -10px;
+        font-size: 1.2rem;
+    }
+    .social {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        transform-origin: 80 0;
+        transform: rotate(360deg);
+        margin-top: 25%;
+        margin-left: 8%;
+        font-size: 120%;
+        a {
             margin-bottom: 20px;
             width: 20px;
-          }
-          
-      }
-      
-
-    .tagline{
-        font-size:200%;
+        }
+    }
+    .tagline {
+        font-size: 200%;
         text-shadow: -1px 0 $white, 0 1px $white, 1px 0 $white, 0 -1px $white;
         margin-bottom: -50px;
         margin-top: -350px;
-        color:black;
-        font:$font-secondary;
+        color: black;
+        font: $font-secondary;
         margin-right: 15%;
     }
-    
-    .typewrite{
-        font:$font-primary;
+    .typewrite {
+        font: $font-primary;
         margin-top: 6%;
-        margin-bottom:6%;
+        margin-bottom: 6%;
         margin-right: 15%;
-        font-size:150%;
+        font-size: 150%;
         color: $ppl;
     }
-
-    .resume{
+    .resume {
         text-decoration: underline;
         margin-right: 8%;
     }
-
-   
-
 }
 
-.navbar-nav > li > .dropdown-menu { 
-    background-color: black; 
-    a{
-        color:white;
+.navbar-nav>li>.dropdown-menu {
+    background-color: black;
+    a {
+        color: white;
         &:hover {
-            color: $black;   
+            color: $black;
         }
         &:active {
             background-color: $tq;
@@ -150,135 +131,107 @@ p {
     background-repeat: no-repeat;
     padding-bottom: 10%;
     padding-top: 10%;
-   
-
-    .profilePic{
+    .profilePic {
         margin-top: -5rem;
         width: 60%;
     }
-
-    h2{
+    h2 {
         margin-left: 15%;
         margin-top: 3%;
         font-size: 3rem;
-       
     }
-
-    p{
-        font-size:1.3rem;
+    p {
+        font-size: 1.3rem;
         margin: 0 15% 3% 22%;
     }
-
-    .mail{
+    .mail {
         text-decoration: underline;
-        font-size:1rem;
+        font-size: 1rem;
     }
-
-    .scroll{
+    .scroll {
         margin-top: 7rem;
     }
-
 }
 
-.section2{
+.section2 {
     background-image: url(../images/bg2.png);
     background-repeat: no-repeat;
-
-
-    .card{
-        margin:3% 18% 2% 18%;
+    .card {
+        margin: 3% 18% 2% 18%;
         border-color: black;
-
-        .column-title{
-            margin-top: 2rem  !important;
+        .column-title {
+            margin-top: 2rem !important;
             margin-bottom: 2rem !important;
         }
-        
         a {
             color: $white;
             text-decoration: none;
-    
         }
     }
-
-   
 }
 
-.latest{
-    h4{
+.latest {
+    h4 {
         font-size: 30px;
-        margin:10% 15% 0 16%;
+        margin: 10% 15% 0 16%;
     }
-
-    #api{
+    #api {
         margin: 5% 10% 5% 20%;
     }
-
-    #api :hover{
-        box-shadow: 0 0 100px $shadow; 
+    #api :hover {
+        box-shadow: 0 0 100px $shadow;
     }
-
     #api>img {
         width: 200px;
         margin-left: 20px;
         margin-bottom: 20px;
     }
-    
-    #api>video{
+    #api>video {
         width: 250px;
         margin-left: 20px;
         margin-bottom: 20px;
     }
 }
 
-.section3{
+.section3 {
     background-image: url(../images/bg3.png);
     background-repeat: no-repeat;
     padding-bottom: 10%;
-
-    h2{
+    h2 {
         margin-top: 10%;
         padding-top: 10%;
     }
-
-   .publish{
+    .publish {
         margin: 3% 15% 5% 18%;
-   }
-   
-
+    }
 }
 
-.section4{
+.section4 {
     background-image: url(../images/bg4.png);
     background-repeat: no-repeat;
-
-    .carousel{
+    .carousel {
         margin: 5% 30% 15% 30%;
     }
-
-     .carousel :hover {
-        box-shadow: 0 0 100px $shadow; 
+    .carousel :hover {
+        box-shadow: 0 0 100px $shadow;
     }
-
-    .carousel-item :hover{
+    .carousel-item :hover {
         box-shadow: unset;
     }
-
-    .carousel-caption{
+    .carousel-caption {
         position: relative;
-        left:0;
-        bottom:0;
-        right:0;
+        left: 0;
+        bottom: 0;
+        right: 0;
     }
-
 }
 
 .card :hover {
-    box-shadow: 0 0 100px $shadow; 
+    box-shadow: 0 0 100px $shadow;
 }
 
 .card-title :hover {
-    box-shadow: none ; 
+    box-shadow: none;
 }
 
 // .sticky {
@@ -286,9 +239,6 @@ p {
 //   top: 0;
 //   width: 100%;
 // }
-
-
-
 //PLANT ME
 h3 {
     font: 350% $font-secondary;
@@ -297,7 +247,7 @@ h3 {
     filter: drop-shadow(4px 3px 0px $ppl);
 }
 
-h5{
+h5 {
     font: 1.5rem $font-secondary;
     font-weight: bold;
     margin-bottom: 20px;
@@ -305,313 +255,266 @@ h5{
     color: $ppl;
 }
 
-.subHeader{
-    margin-top: -400px;
+.subHeader {
+    margin-top: 50px;
     margin-left: 15%;
     margin-bottom: 40px;
 }
 
-.gif{
+.gif {
     width: 430px;
-   
 }
 
-.overview{
-    margin-left:15%;
-    margin-right:10%;
-    p{
+.overview {
+    margin-left: 15%;
+    margin-right: 10%;
+    p {
         font-size: 1.2rem;
     }
 }
 
-.writeup{
+.writeup {
     margin-top: 180px;
 }
 
-.psection1{
+.psection1 {
     background-image: url(../images/bgp1.png);
     background-repeat: no-repeat;
     padding-bottom: 80px;
-    
-    .row{
+    .row {
         margin-left: 15%;
         margin-right: 10%;
-        .table{
+        .table {
             margin-top: 30px;
         }
-        .list{
+        .list {
             list-style-type: none;
             margin: 0;
             padding: 0;
             font: 1.5rem $font-primary;
-            color:white;
+            color: white;
         }
     }
 }
 
-.psection2{
+.psection2 {
     margin-left: 15%;
     margin-right: 10%;
     margin-top: 8%;
     margin-bottom: 5%;
-    
-    h5{
+    h5 {
         margin-bottom: 10%;
     }
-
-    p{
+    p {
         font: 1.5rem $font-primary;
         color: $grey;
     }
-
 }
 
-.psection3{
+.psection3 {
     margin-left: 15%;
     margin-right: 10%;
     margin-top: 8%;
     margin-bottom: 5%;
-    
-    h5{
+    h5 {
         margin-bottom: 10%;
     }
-
-    img{
+    img {
         width: 500px;
     }
-
-    p{
+    p {
         font: 1.3rem $font-secondary;
     }
-
 }
 
-
-.psection4{
+.psection4 {
     margin-left: 15%;
     margin-right: 10%;
     margin-top: 8%;
     margin-bottom: 10%;
-    
-    h5{
+    h5 {
         margin-bottom: 5%;
     }
-
-    p{
+    p {
         font: 1.8rem $font-primary;
-        color:$tq;
-        margin-left:20%;
-        margin-right:20%;
+        color: $tq;
+        margin-left: 20%;
+        margin-right: 20%;
     }
-
-    
-
 }
 
-.psection5{
+.psection5 {
     background-image: url(../images/bgp5.png);
     background-repeat: no-repeat;
     padding-bottom: 10px;
-    .row{
+    .row {
         margin-left: 15%;
         margin-right: 10%;
         margin-top: 8%;
         margin-bottom: 5%;
     }
-    
-    h5{
+    h5 {
         margin-bottom: 10%;
     }
-
-    img{
+    img {
         width: 700px;
     }
-
-    p{
+    p {
         font: 1.3rem $font-secondary;
     }
-
 }
 
-.psection6{
+.psection6 {
     margin-left: 15%;
     margin-right: 10%;
     margin-top: 8%;
     margin-bottom: 5%;
-    
-    h5{
+    h5 {
         margin-bottom: 10%;
     }
-
-    img{
+    img {
         width: 500px;
     }
-
-    p{
+    p {
         font: 1.3rem $font-secondary;
     }
-
 }
 
-.psection7{
+.psection7 {
     margin-left: 15%;
     margin-right: 10%;
     margin-top: 8%;
     margin-bottom: 10%;
-    
-    h5{
+    h5 {
         margin-bottom: 5%;
     }
-
-    p{
+    p {
         font: 1.8rem $font-primary;
-        color:$grey;
-        margin-left:20%;
-        margin-right:20%;
+        color: $grey;
+        margin-left: 20%;
+        margin-right: 20%;
     }
-
 }
 
-.psection8{
+.psection8 {
     background-image: url(../images/bgp5.png);
     background-repeat: no-repeat;
     padding-bottom: 10px;
-    .row{
+    .row {
         margin-left: 15%;
         margin-right: 10%;
         margin-top: 8%;
         margin-bottom: 5%;
     }
-    
-    h5{
+    h5 {
         margin-bottom: 10%;
     }
-
-    img{
+    img {
         width: 400px;
     }
-
-    p{
+    p {
         font: 1.3rem $font-secondary;
     }
-
 }
 
-.psection9{
+.psection9 {
     margin-left: 15%;
     margin-right: 10%;
     margin-top: 8%;
     margin-bottom: 10%;
-    
-    h5{
+    h5 {
         margin-bottom: 5%;
     }
-
-    .carousel{
+    .carousel {
         width: 500px;
         margin-left: 20%;
         margin-right: 20%;
     }
-
 }
 
-.psection10{
+.psection10 {
     margin-left: 15%;
     margin-right: 10%;
     margin-top: 8%;
     margin-bottom: 10%;
-    
-    h5{
+    h5 {
         margin-bottom: 5%;
     }
-
     ul.horizontal-slide {
-        margin:0;
+        margin: 0;
         padding: 0;
         width: 100%;
         white-space: nowrap;
         overflow-x: auto;
     }
-    
     ul.horizontal-slide li[class*="col"] {
         display: inline-block;
         float: none;
         margin-top: 0;
         margin-right: 13vw;
         vertical-align: top;
-        img{
-            width:23vw;
+        img {
+            width: 23vw;
         }
     }
-    
     ul.horizontal-slide li[class*="col"]:first-child {
         margin-left: 0;
     }
-
 }
 
-.related{
+.related {
     margin-left: 15%;
     margin-right: 10%;
     margin-top: 15%;
     margin-bottom: 10%;
-
-    img{
+    img {
         margin-top: 5%;
     }
-    
-    h5{
+    h5 {
         margin-bottom: 5%;
         color: $tq;
     }
-
 }
 
 //Dyson
-.dsection8{
+.dsection8 {
     margin-left: 15%;
     margin-right: 10%;
     margin-top: 8%;
     margin-bottom: 10%;
-
     ul.horizontal-slide {
-        margin:0;
+        margin: 0;
         padding: 0;
         width: 100%;
         white-space: nowrap;
         overflow-x: auto;
-        
     }
-    
     ul.horizontal-slide li[class*="col"] {
         display: inline-block;
         float: none;
         margin-top: 0;
         margin-right: 40vw;
         vertical-align: top;
-        img{
+        img {
             width: 50vw;
         }
     }
-    
     ul.horizontal-slide li[class*="col"]:first-child {
         margin-left: 0;
     }
-
-    .version{
+    .version {
         font-size: 2rem;
         margin-top: 100px;
-        margin-bottom:50px;
+        margin-bottom: 50px;
     }
-
 }
 
-.iphone{
+.iphone {
     width: 300px;
 }
 
 //Bean & Barista
-.bsection3{
+.bsection3 {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 8%;
@@ -619,7 +522,7 @@ h5{
     img {
         margin: 3vh 15% 0 10%;
     }
-    p{
+    p {
         font: 1.3rem $font-secondary;
     }
 }
@@ -632,10 +535,9 @@ h5{
     img {
         margin: 3vh 35% 0 30%;
     }
-    p{
+    p {
         font: 1.8rem $font-primary;
-        color:$tq;
-        
+        color: $tq;
     }
 }
 
@@ -647,24 +549,23 @@ h5{
     img {
         margin: 3vh 10% 0 0;
     }
-    p{
+    p {
         font: 1.3rem $font-secondary;
     }
 }
-
 
 .bsection10 {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 8%;
     margin-bottom: 10%;
-    video{
+    video {
         margin: 0 15% 0 15%;
     }
 }
 
 //Contact
-.contact{
+.contact {
     margin-top: -650px;
     margin-left: 15%;
     margin-right: 5%;
@@ -672,22 +573,43 @@ h5{
 }
 
 //Request
-.request{
+.request {
     margin-left: 12%;
     margin-right: 5%;
     margin-bottom: 10%;
 }
 
-.box-title{
+.box-title {
     border-radius: 5px;
     box-shadow: 0px 0px 3px 1px gray;
     padding: 10px 0px;
 }
-.error-msg{
+
+.error-msg {
     color: #dc3545;
     font-weight: 600;
 }
-.success-msg{
+
+.success-msg {
     color: green;
     font-weight: 600;
+}
+
+//Develop
+.develop {
+    font: 1.8rem "Lato";
+    color: white;
+    background-color: #723CA9;
+}
+
+.developDiv {
+    margin-top: 8%;
+    .row {
+        margin-top: 5%;
+    }
+}
+
+embed {
+    width: 70vw;
+    height: 60vh;
 }

@@ -164,7 +164,7 @@ p {
 }
 
 .section2 .card .column-title {
-  margin-top: 2rem  !important;
+  margin-top: 2rem !important;
   margin-bottom: 2rem !important;
 }
 
@@ -267,7 +267,7 @@ h5 {
 }
 
 .subHeader {
-  margin-top: -400px;
+  margin-top: 50px;
   margin-left: 15%;
   margin-bottom: 40px;
 }
@@ -646,5 +646,24 @@ h5 {
 .success-msg {
   color: green;
   font-weight: 600;
+}
+
+.develop {
+  font: 1.8rem "Lato";
+  color: white;
+  background-color: #723CA9;
+}
+
+.developDiv {
+  margin-top: 8%;
+}
+
+.developDiv .row {
+  margin-top: 5%;
+}
+
+embed {
+  width: 70vw;
+  height: 60vh;
 }
 /*# sourceMappingURL=main.css.map */

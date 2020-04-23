@@ -1,271 +1,226 @@
-@media (max-width: 768px) { 
-    
+@media (max-width: 768px) {
     //main
     .hero {
         margin-bottom: 15%;
-
-        h1{
+        h1 {
             font-size: 4rem;
             margin-right: 8%;
             margin-left: 10%;
-            
         }
-
-        .logo{
-            width:18%;
-            margin:10% 3% 0 6%;
+        h3 {
+            font-size: 2.8rem;
         }
-
-        .social{
-            margin-top:60%;
+        span {
+            font-size: 1.5rem;
         }
-
-        .navigation{
-            margin-top:10%;
+        .logo {
+            width: 18%;
+            margin: 10% 3% 0 6%;
+        }
+        .social {
+            margin-top: 60%;
+        }
+        .navigation {
+            margin-top: 10%;
             font-size: 100%;
         }
-
         .tagline {
             margin-top: -250px;
-            font-size:150%;
+            font-size: 150%;
             margin-right: 8%;
         }
-
-        .typewrite{
+        .typewrite {
             font-size: 130%;
             margin-left: 20%;
             margin-right: 8%;
         }
-
-        .resume{
+        .resume {
             margin-right: 4%;
             font-size: 110%;
         }
-
     }
-   
     .section1 {
         background-size: cover;
-        h2{
+        h2 {
             margin-top: 20%;
             font-size: 2rem;
         }
-
-        .profilePic{
+        .profilePic {
             margin-top: 40px;
             width: 50%;
             margin-left: 20%;
         }
-
-        p{
+        p {
             font-size: 1.1rem;
         }
     }
-
     .section2 {
-        h2{
+        h2 {
             margin-top: 20%;
             font-size: 2rem;
         }
-
-        .card{
-            margin:3% 10% 2% 10%;
+        .card {
+            margin: 3% 10% 2% 10%;
         }
-
-        .column-title{
-            font-size:1.5rem;
+        .column-title {
+            font-size: 1.5rem;
         }
-
-        h4{
+        h4 {
             font-size: 30px;
         }
-        
-        #api{
+        #api {
             margin: 5% 10% 5% 10%;
         }
-
         #api>img {
             width: 130px;
         }
     }
-    
-    .section3{
+    .section3 {
         background-size: cover;
     }
-
-    .section4{
-        .carousel{
+    .section4 {
+        .carousel {
             margin: 5% 10% 30% 10%;
-        }     
+        }
     }
-
     .sticky {
         position: relative;
-      }
-
+    }
     //plant me
-    .subHeader{
-        margin-top: -350px;
-        margin-left: 28%;
+    .subHeader {
+        margin-top: 50px;
         margin-bottom: 20px;
     }
-
-    .gif{
+    .gif {
         width: 250px;
-        margin-left: 15%;
         margin-bottom: 30px;
     }
-
-    .writeup{
+    .writeup {
         margin-top: 40px;
     }
-
-    .psection1{
+    .psection1 {
         background-size: cover;
-        .row{
+        .row {
             margin-top: -10%;
         }
     }
-
-    .psection4{
-        p{
+    .psection4 {
+        p {
             margin-left: 0;
             margin-right: 10%;
         }
-        
     }
-
-    .psection5{
-        .row{
+    .psection5 {
+        .row {
             margin-left: 10%;
         }
-        
     }
-
-    .psection7{
-        p{
+    .psection7 {
+        p {
             margin-left: 0;
             margin-right: 10%;
         }
-        
     }
-
-    .psection8{
-        .row{
+    .psection8 {
+        .row {
             margin-left: 10%;
         }
-        
     }
-
-    .psection9{
+    .psection9 {
         margin-left: 10%;
         margin-right: 5%;
-        .carousel{
+        .carousel {
             width: 80%;
             margin: 5% 10% 15% 5%;
         }
     }
-    
-    .psection10{
-        .container{
+    .psection10 {
+        .container {
             margin-left: -20px;
         }
-
         ul.horizontal-slide li[class*="col"] {
             margin-right: 13vw;
-            img{
-                width:70vw;
+            img {
+                width: 70vw;
             }
         }
     }
-
     //dyson
-    .dysonHero{
+    .dysonHero {
         h3 {
             font-size: 2.5rem;
         }
     }
-
-    .dsection8{
+    .dsection8 {
         margin-left: 10%;
-   
         ul.horizontal-slide li[class*="col"] {
             margin-right: 13vw;
-            img{
-                width:75vw;
+            img {
+                width: 75vw;
             }
         }
     }
-
     //bean 
-    .bsection4 , .bsection3 {
-        img{
-            margin:0;
+    .bsection4,
+    .bsection3 {
+        img {
+            margin: 0;
         }
     }
-
     .bsection10 {
         margin-top: 25%;
-        video{
+        video {
             width: 280px;
             height: 250px;
-            margin:0;
+            margin: 0;
         }
     }
-
     //contact
-    .contact{
-    margin-top: -520px;
+    .contact {
+        margin-top: -520px;
+    }
+    //develop
+    embed {
+        transform: rotate(90deg);
+        margin-bottom: 0;
+        width: 300px;
+        height: 300px;
+    }
 }
-   
- }
 
-
- @media (max-width: 375px) { 
+@media (max-width: 375px) {
     .hero {
         background-size: cover;
-    
-
-        h1{
+        h1 {
             font-size: 3.5rem;
-            
         }
-
-        .social{
-            margin-top:80%;
+        .social {
+            margin-top: 80%;
         }
-
-        .navigation{
-            margin-top:10%;
+        .navigation {
+            margin-top: 10%;
             font-size: 100%;
             // padding-bottom: 30%;
         }
-
         .tagline {
             margin-top: -250px;
-            font-size:130%;
+            font-size: 130%;
         }
-
-        .typewrite{
+        .typewrite {
             font-size: 110%;
             margin-left: 25%;
         }
-
-        .resume{
+        .resume {
             margin-right: 4%;
             font-size: 100%;
-            
         }
-
     }
-
     //contact
-    .contact{
+    .contact {
         margin-right: 5%;
-        h1{
+        h1 {
             margin-top: 100px;
             margin-left: 0px;
         }
     }
-
- }
+}

@@ -164,7 +164,7 @@ p {
 }
 
 .section2 .card .column-title {
-  margin-top: 2rem  !important;
+  margin-top: 2rem !important;
   margin-bottom: 2rem !important;
 }
 
@@ -267,7 +267,7 @@ h5 {
 }
 
 .subHeader {
-  margin-top: -400px;
+  margin-top: 50px;
   margin-left: 15%;
   margin-bottom: 40px;
 }
@@ -648,6 +648,25 @@ h5 {
   font-weight: 600;
 }
 
+.develop {
+  font: 1.8rem "Lato";
+  color: white;
+  background-color: #723CA9;
+}
+
+.developDiv {
+  margin-top: 8%;
+}
+
+.developDiv .row {
+  margin-top: 5%;
+}
+
+embed {
+  width: 70vw;
+  height: 60vh;
+}
+
 @media (max-width: 768px) {
   .hero {
     margin-bottom: 15%;
@@ -656,6 +675,12 @@ h5 {
     font-size: 4rem;
     margin-right: 8%;
     margin-left: 10%;
+  }
+  .hero h3 {
+    font-size: 2.8rem;
+  }
+  .hero span {
+    font-size: 1.5rem;
   }
   .hero .logo {
     width: 18%;
@@ -726,13 +751,11 @@ h5 {
     position: relative;
   }
   .subHeader {
-    margin-top: -350px;
-    margin-left: 28%;
+    margin-top: 50px;
     margin-bottom: 20px;
   }
   .gif {
     width: 250px;
-    margin-left: 15%;
     margin-bottom: 30px;
   }
   .writeup {
@@ -787,7 +810,8 @@ h5 {
   .dsection8 ul.horizontal-slide li[class*="col"] img {
     width: 75vw;
   }
-  .bsection4 img, .bsection3 img {
+  .bsection4 img,
+  .bsection3 img {
     margin: 0;
   }
   .bsection10 {
@@ -800,6 +824,13 @@ h5 {
   }
   .contact {
     margin-top: -520px;
+  }
+  embed {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-bottom: 0;
+    width: 300px;
+    height: 300px;
   }
 }
 

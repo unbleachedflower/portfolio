@@ -71,12 +71,12 @@ p {
           transform-origin: 80 0;
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
-  margin-top: 30%;
+  margin-top: 25%;
   margin-left: 8%;
   font-size: 120%;
 }
 
-.hero .social img {
+.hero .social a {
   margin-bottom: 20px;
   width: 20px;
 }
@@ -85,7 +85,7 @@ p {
   font-size: 200%;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   margin-bottom: -50px;
-  margin-top: -300px;
+  margin-top: -350px;
   color: black;
   font: "Raleway";
   margin-right: 15%;

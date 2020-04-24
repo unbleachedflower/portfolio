@@ -262,7 +262,6 @@ h5 {
   font: 1.5rem "Raleway";
   font-weight: bold;
   margin-bottom: 20px;
-  margin-top: 20px;
   color: #D9CBF4;
 }
 
@@ -656,14 +655,20 @@ h5 {
 
 .developDiv {
   margin-top: 8%;
+  margin-bottom: 8%;
 }
 
-.developDiv .row {
-  margin-top: 5%;
+.developDiv a {
+  font-size: 1.2rem;
 }
 
 embed {
   width: 70vw;
   height: 60vh;
+  margin-top: 5%;
+}
+
+span {
+  margin-bottom: 5%;
 }
 /*# sourceMappingURL=main.css.map */

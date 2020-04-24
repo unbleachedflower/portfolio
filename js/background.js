@@ -33,7 +33,7 @@ frame.on("ready", () => {
             obj: {
                 type: "shape",
                 s: ["#A37EEA", "#88FBED"],
-                ss: 1
+                ss: 0.5
             },
             sink: sink,
             sinkForce: 5, // force towards sink
@@ -43,6 +43,7 @@ frame.on("ready", () => {
             decayTime: 2000 // fade out over the last 2 seconds
         })
         .center()
+        .alp(0.1)
         .mov(0, -600);
 
     stage.on("stagemousedown", () => {

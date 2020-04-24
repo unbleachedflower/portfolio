@@ -72,10 +72,12 @@
         .logo {
             width: 6%;
             margin: 3% 3% 0 6%;
+            z-index: 10;
         }
         #navbarNav {
             margin: 3% 3% 0 -10px;
             font-size: 1.2rem;
+            z-index: 10;
         }
         .social {
             writing-mode: vertical-rl;
@@ -88,7 +90,9 @@
             a {
                 margin-bottom: 20px;
                 width: 20px;
+                z-index: 10;
             }
+            z-index: 10;
         }
         .tagline {
             font-size: 200%;
@@ -110,6 +114,7 @@
         .resume {
             text-decoration: underline;
             margin-right: 8%;
+            z-index: 10;
         }
     }
     

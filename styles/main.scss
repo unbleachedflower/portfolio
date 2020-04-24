@@ -87,21 +87,22 @@
             margin-top: 25%;
             margin-left: 8%;
             font-size: 120%;
+            z-index: 10;
             a {
                 margin-bottom: 20px;
                 width: 20px;
                 z-index: 10;
             }
-            z-index: 10;
         }
         .tagline {
             font-size: 200%;
             text-shadow: -1px 0 $white, 0 1px $white, 1px 0 $white, 0 -1px $white;
             margin-bottom: -50px;
-            margin-top: -350px;
+            margin-top: -300px;
             color: black;
             font: $font-secondary;
             margin-right: 15%;
+            z-index: 10;
         }
         .typewrite {
             font: $font-primary;
@@ -110,6 +111,7 @@
             margin-right: 15%;
             font-size: 150%;
             color: $ppl;
+            z-index: 10;
         }
         .resume {
             text-decoration: underline;

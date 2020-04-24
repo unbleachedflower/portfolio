@@ -89,10 +89,11 @@ p {
   font-size: 200%;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   margin-bottom: -50px;
-  margin-top: -350px;
+  margin-top: -300px;
   color: black;
   font: "Raleway";
   margin-right: 15%;
+  z-index: 10;
 }
 
 .hero .typewrite {
@@ -102,6 +103,7 @@ p {
   margin-right: 15%;
   font-size: 150%;
   color: #D9CBF4;
+  z-index: 10;
 }
 
 .hero .resume {

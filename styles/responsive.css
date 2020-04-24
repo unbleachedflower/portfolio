@@ -20,9 +20,8 @@
   .hero .social {
     margin-top: 60%;
   }
-  .hero .navigation {
-    margin-top: 10%;
-    font-size: 100%;
+  .hero .navbar {
+    z-index: 12;
   }
   .hero .tagline {
     margin-top: -250px;

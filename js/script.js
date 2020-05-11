@@ -1,12 +1,10 @@
-
-
 //HERO TYPE WRITEE ---------------------------------
 
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
+    this.period = parseInt(period, 10) || 100;
     this.txt = '';
     this.tick();
     this.isDeleting = false;
@@ -17,12 +15,12 @@ TxtType.prototype.tick = function() {
     var fullTxt = this.toRotate[i];
 
     if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
     } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
     var that = this;
     var delta = 200 - Math.random() * 100;
@@ -30,26 +28,26 @@ TxtType.prototype.tick = function() {
     if (this.isDeleting) { delta /= 2; }
 
     if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
+        delta = this.period;
+        this.isDeleting = true;
     } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 300;
     }
 
     setTimeout(function() {
-    that.tick();
+        that.tick();
     }, delta);
 };
 
 window.onload = function() {
     var elements = document.getElementsByClassName('typewrite');
-    for (var i=0; i<elements.length; i++) {
+    for (var i = 0; i < elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
         var period = elements[i].getAttribute('data-period');
         if (toRotate) {
-          new TxtType(elements[i], JSON.parse(toRotate), period);
+            new TxtType(elements[i], JSON.parse(toRotate), period);
         }
     }
     // INJECT CSS
@@ -62,17 +60,17 @@ window.onload = function() {
 
 
 //Sticky Header
-window.onscroll = function() {myFunction()};
+window.onscroll = function() { myFunction() };
 
 var header = document.getElementById("myHeader");
 var sticky = header.offsetTop;
 
 function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+    } else {
+        header.classList.remove("sticky");
+    }
 };
 
 console.log("javascript linked");
@@ -82,38 +80,35 @@ console.log("javascript linked");
 
 //AOS
 AOS.init({
-  offset: -180
+    offset: -180
 });
 
 //API
 function getApi() {
-  console.log("calling api");
-  var xhr = $.get(`https://graph.instagram.com/me/media?fields=id,media_type,media_url&access_token=IGQVJVMUwzWGMxUE1PQVBmMFI3NlVBc1gxNHk0X3pQaDZA6TVBtdjIzOHlNbGd4amJVZATEyMFN1U1lxU2RVNDdZAYk1RcWE1aG9iQS0tZAGh3ajU0c3JxZA2l1NXhYS1hoNzFrbHNpMGdn`);
+    console.log("calling api");
+    var xhr = $.get(`https://graph.instagram.com/me/media?fields=id,media_type,media_url&access_token=IGQVJVMUwzWGMxUE1PQVBmMFI3NlVBc1gxNHk0X3pQaDZA6TVBtdjIzOHlNbGd4amJVZATEyMFN1U1lxU2RVNDdZAYk1RcWE1aG9iQS0tZAGh3ajU0c3JxZA2l1NXhYS1hoNzFrbHNpMGdn`);
 
-xhr.done(function(res) { 
-  // console.log(res); 
-  let instaData = res.data
-  
-  let container = document.getElementById('api')
+    xhr.done(function(res) {
+        // console.log(res); 
+        let instaData = res.data
 
-  for(let insta of instaData) {
-      console.log(insta);
-      if(insta.media_type == 'IMAGE'){
-          let imgTag = document.createElement('img')
-          imgTag.setAttribute('src', insta.media_url)
-          container.appendChild(imgTag)
-      }else{
-          let videoTag = document.createElement('video')
-          // let videoControl = document.setAttribute('name','control')
-          // videoTag.appendChild(videoControl)
-          videoTag.setAttribute('src',insta.media_url)
-          container.appendChild(videoTag)
-      }
-  }
-});  
+        let container = document.getElementById('api')
+
+        for (let insta of instaData) {
+            console.log(insta);
+            if (insta.media_type == 'IMAGE') {
+                let imgTag = document.createElement('img')
+                imgTag.setAttribute('src', insta.media_url)
+                container.appendChild(imgTag)
+            } else {
+                let videoTag = document.createElement('video')
+                    // let videoControl = document.setAttribute('name','control')
+                    // videoTag.appendChild(videoControl)
+                videoTag.setAttribute('src', insta.media_url)
+                container.appendChild(videoTag)
+            }
+        }
+    });
 };
 
 getApi();
-
-
-   

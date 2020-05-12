@@ -275,7 +275,7 @@ h5 {
 .subHeader {
   margin-top: 50px;
   margin-left: 15%;
-  margin-bottom: 40px;
+  margin-bottom: 5%;
 }
 
 .gif {
@@ -288,22 +288,23 @@ h5 {
 }
 
 .overview p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .writeup {
-  margin-top: 180px;
+  margin-top: 8%;
 }
 
 .psection1 {
   background-image: url(../images/bgp1.png);
   background-repeat: no-repeat;
-  padding-bottom: 80px;
+  padding-bottom: 10%;
 }
 
 .psection1 .row {
   margin-left: 15%;
   margin-right: 10%;
+  margin-top: -5%;
 }
 
 .psection1 .row .table {
@@ -314,14 +315,14 @@ h5 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font: 1.5rem "Lora";
+  font: 1.3rem "Lora";
   color: white;
 }
 
 .psection2 {
   margin-left: 15%;
   margin-right: 10%;
-  margin-top: 8%;
+  margin-top: -5%;
   margin-bottom: 5%;
 }
 
@@ -330,14 +331,14 @@ h5 {
 }
 
 .psection2 p {
-  font: 1.5rem "Lora";
+  font: 1.3rem "Lora";
   color: #909090;
 }
 
 .psection3 {
   margin-left: 15%;
   margin-right: 10%;
-  margin-top: 8%;
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 
@@ -356,8 +357,8 @@ h5 {
 .psection4 {
   margin-left: 15%;
   margin-right: 10%;
-  margin-top: 8%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .psection4 h5 {
@@ -365,7 +366,7 @@ h5 {
 }
 
 .psection4 p {
-  font: 1.8rem "Lora";
+  font: 1.5rem "Lora";
   color: #88FBED;
   margin-left: 20%;
   margin-right: 20%;
@@ -380,7 +381,7 @@ h5 {
 .psection5 .row {
   margin-left: 15%;
   margin-right: 10%;
-  margin-top: 8%;
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 
@@ -393,13 +394,13 @@ h5 {
 }
 
 .psection5 p {
-  font: 1.3rem "Raleway";
+  font: 1.2rem "Raleway";
 }
 
 .psection6 {
   margin-left: 15%;
   margin-right: 10%;
-  margin-top: 8%;
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 
@@ -412,13 +413,13 @@ h5 {
 }
 
 .psection6 p {
-  font: 1.3rem "Raleway";
+  font: 1.2rem "Raleway";
 }
 
 .psection7 {
   margin-left: 15%;
   margin-right: 10%;
-  margin-top: 8%;
+  margin-top: 5%;
   margin-bottom: 10%;
 }
 
@@ -427,7 +428,7 @@ h5 {
 }
 
 .psection7 p {
-  font: 1.8rem "Lora";
+  font: 1.3rem "Lora";
   color: #909090;
   margin-left: 20%;
   margin-right: 20%;
@@ -436,13 +437,13 @@ h5 {
 .psection8 {
   background-image: url(../images/bgp5.png);
   background-repeat: no-repeat;
-  padding-bottom: 10px;
+  padding-bottom: 3%;
 }
 
 .psection8 .row {
   margin-left: 15%;
   margin-right: 10%;
-  margin-top: 8%;
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 
@@ -455,14 +456,13 @@ h5 {
 }
 
 .psection8 p {
-  font: 1.3rem "Raleway";
+  font: 1.2rem "Raleway";
 }
 
 .psection9 {
   margin-left: 15%;
   margin-right: 10%;
-  margin-top: 8%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .psection9 h5 {
@@ -478,8 +478,8 @@ h5 {
 .psection10 {
   margin-left: 15%;
   margin-right: 10%;
-  margin-top: 8%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .psection10 h5 {
@@ -513,7 +513,7 @@ h5 {
 .related {
   margin-left: 15%;
   margin-right: 10%;
-  margin-top: 15%;
+  margin-top: 8%;
   margin-bottom: 10%;
 }
 
@@ -558,7 +558,7 @@ h5 {
 }
 
 .dsection8 .version {
-  font-size: 2rem;
+  font-size: 1.3rem;
   margin-top: 100px;
   margin-bottom: 50px;
 }
@@ -594,7 +594,7 @@ h5 {
 }
 
 .bsection4 p {
-  font: 1.8rem "Lora";
+  font: 1.3rem "Lora";
   color: #88FBED;
 }
 

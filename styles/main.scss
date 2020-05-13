@@ -518,15 +518,12 @@
         width: 300px;
     }
     
-    //Bean & Barista
+    //Beans & Barista
     .bsection3 {
         margin-left: 15%;
         margin-right: 15%;
         margin-top: 8%;
         margin-bottom: 10%;
-        img {
-            margin: 3vh 15% 0 10%;
-        }
         p {
             font: 1.3rem $font-secondary;
         }
@@ -565,9 +562,7 @@
         margin-top: 8%;
         margin-bottom: 10%;
         img {
-            margin: 3vh 10% 0 0;
-        }
-        video {
+            width: 80%;
             margin: 0 15% 0 15%;
         }
     }

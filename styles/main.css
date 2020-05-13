@@ -573,10 +573,6 @@ h5 {
   margin-bottom: 10%;
 }
 
-.bsection3 img {
-  margin: 3vh 15% 0 10%;
-}
-
 .bsection3 p {
   font: 1.3rem "Raleway";
 }
@@ -620,10 +616,7 @@ h5 {
 }
 
 .bsection10 img {
-  margin: 3vh 10% 0 0;
-}
-
-.bsection10 video {
+  width: 80%;
   margin: 0 15% 0 15%;
 }
 

@@ -616,8 +616,12 @@ h5 {
 }
 
 .bsection10 img {
-  width: 80%;
-  margin: 0 15% 0 15%;
+  width: 90%;
+  margin: 3vh 8% 3vh 5%;
+}
+
+.bsection10 video {
+  margin: 3vh 35% 3vh 35%;
 }
 
 .contact {

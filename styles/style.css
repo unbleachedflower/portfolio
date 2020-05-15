@@ -729,17 +729,19 @@ span {
   .section1 .profilePic {
     margin-top: 0;
     width: 100%;
-    margin-left: 2rem;
+    margin-left: 0;
   }
   .section1 p {
     font-size: 1.1rem;
+    margin-left: 15%;
+    margin-bottom: -5%;
   }
   .section2 h2 {
     margin-top: 20%;
     font-size: 2rem;
   }
   .section2 .card {
-    margin: 3% 10% 2% 10%;
+    margin: 3% 15% 2% 15%;
   }
   .section2 .column-title {
     font-size: 1.5rem;
@@ -756,8 +758,11 @@ span {
   .section3 {
     background-size: cover;
   }
+  .section3 .publish {
+    margin-left: 15%;
+  }
   .section4 .carousel {
-    margin: 5% 10% 30% 10%;
+    margin: 5% 15% 30% 15%;
   }
   .sticky {
     position: relative;

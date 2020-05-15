@@ -45,9 +45,9 @@
     font-size: 2rem;
   }
   .section1 .profilePic {
-    margin-top: 40px;
-    width: 50%;
-    margin-left: 20%;
+    margin-top: 0;
+    width: 100%;
+    margin-left: 2rem;
   }
   .section1 p {
     font-size: 1.1rem;

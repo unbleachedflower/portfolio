@@ -136,8 +136,9 @@ p {
 }
 
 .section1 .profilePic {
-  margin-top: -5rem;
-  width: 60%;
+  margin-top: -15rem;
+  margin-left: -8rem;
+  width: 120%;
 }
 
 .section1 h2 {

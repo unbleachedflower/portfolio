@@ -26,8 +26,8 @@ h1 {
   font-weight: bold;
   color: #88FBED;
   margin-right: 15%;
-  -webkit-filter: drop-shadow(4px 3px 0px #D9CBF4);
-          filter: drop-shadow(4px 3px 0px #D9CBF4);
+  -webkit-filter: drop-shadow(3px 3px 0px #D9CBF4);
+          filter: drop-shadow(3px 3px 0px #D9CBF4);
 }
 
 h2 {
@@ -262,8 +262,8 @@ h3 {
   font: 350% "Raleway";
   font-weight: bold;
   color: #88FBED;
-  -webkit-filter: drop-shadow(4px 3px 0px #D9CBF4);
-          filter: drop-shadow(4px 3px 0px #D9CBF4);
+  -webkit-filter: drop-shadow(3px 3px 0px #D9CBF4);
+          filter: drop-shadow(3px 3px 0px #D9CBF4);
 }
 
 h5 {

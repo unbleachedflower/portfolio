@@ -203,4 +203,11 @@
     margin-left: 0px;
   }
 }
+
+@media (max-width: 1800px) {
+  .hero .tagline {
+    margin-top: -450px;
+    font-size: 130%;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */

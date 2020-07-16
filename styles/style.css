@@ -886,7 +886,7 @@ span {
   }
 }
 
-@media (max-width: 1800px) {
+@media (min-width: 1500px) {
   .hero .tagline {
     margin-top: -450px;
     font-size: 130%;
